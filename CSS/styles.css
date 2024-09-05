@@ -2,9 +2,9 @@
 @import 'main.css';
 
 .test-font {
-    color:  #FFF6E7;
+    color: var(--dominantColor) !important;
 }
 
 .test-font-2 {  
-    color: #b7f9ff;
+    color: var(--secondaryColor) !important;
 }

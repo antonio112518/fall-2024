@@ -1,0 +1,20 @@
+/* colors */
+
+/*
+60% of 	#fff6e7 - primary
+30% of 	#b7f9ff - secondary
+10% of	#ebffe7 - accent
+*/
+
+:root {
+
+/* var(--dominantColor) !important; */
+--dominantColor: #fff6e7;
+
+/* var(--secondaryColor) !important; */
+--secondaryColor: #b7f9ff;
+
+/* var(--accentColor) !important; */
+--accesntColor: #ebffe7;
+
+}

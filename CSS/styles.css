@@ -9,8 +9,3 @@
     color: var(--secondaryColor) !important;
 }
 
-img{
-    height: 150px;
-    width: 300px;
-    border-radius: 25px 25px 25px 25px;
-}

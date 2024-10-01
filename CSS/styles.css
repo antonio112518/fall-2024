@@ -30,3 +30,40 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/*table styles */
+.content-table{
+    border-collapse: collapse;
+    with: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center; 
+  }
+  
+  .content-table th, .content-table td{
+    padding: 20px;
+  }
+  
+  .content-table thead tr{
+    border-bottom: 1px solid #dddddd;
+    background-color: #fda521;
+  }
+  
+  .content-table tbody tr{
+    border-bottom: 1px solid #033043;
+    background-color: #e9e3d5;
+  }
+  
+  .content-table tbody tr:nth-of-type(even){
+    background-color: #0a7273;
+  }
+  
+  .content-table tbody tr:last-of-type{
+    border-bottom: 3px solid #033043;
+  }
+  
+  .content-table tbody tr td:first-of-type{
+  background-color: #e9e3d5;
+    text-align: right;
+    border-right:  1px solid #033043;
+  }

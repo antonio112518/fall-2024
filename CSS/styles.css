@@ -34,7 +34,7 @@
 /*table styles */
 .content-table{
     border-collapse: collapse;
-    with: 100%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
     text-align: center; 

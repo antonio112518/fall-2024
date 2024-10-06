@@ -74,6 +74,11 @@
     padding-bottom: 30px;
   }
 
-  .duck-facts{
+  @media screen and (max-width: 768px) { 
+    
+  .first-oaragrapg-img{
     width:100%;
+   
+  }
+
   }

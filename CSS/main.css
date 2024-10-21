@@ -23,3 +23,19 @@ color: var(--dominantColor) !important;
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
+
+.footer-row{
+    background-color: var(--dominantColor) !important;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.fotter-row a{
+    color: white;
+text-decoration: none;
+}
+
+.fe-social-media, .fa-social-media a{
+    font-size: 25px !important;
+    padding-left: 12px;
+    padding-left: 12px;
+}

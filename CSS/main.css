@@ -43,7 +43,7 @@ color: var(--dominantColor) !important;
 .top-logo{
     height: auto;
     font-weight: bolder;
-    color: var (--accentColor) !important;
+    color: var (--secondaryColor) !important;
     font-size: 65px;
     padding-top: 40px;
     padding-bottom: 0px;

@@ -39,3 +39,21 @@ color: var(--dominantColor) !important;
     padding-left: 12px;
     padding-left: 12px;
 }
+
+.top-logo{
+    height: auto;
+    font-weight: bolder;
+    color: var (--accesntColor) !important;
+    font-size: 65px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+.material-symbols-outlined, .material-symbols-outlined a{
+    font-size: 60px;
+    color: var(--dominantColor) !important;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+}

@@ -43,7 +43,7 @@ color: var(--dominantColor) !important;
 .top-logo{
     height: auto;
     font-weight: bolder;
-    color: var (--accesntColor) !important;
+    color: var (--accentColor) !important;
     font-size: 65px;
     padding-top: 40px;
     padding-bottom: 0px;
@@ -52,7 +52,7 @@ color: var(--dominantColor) !important;
 
 .material-symbols-outlined, .material-symbols-outlined a{
     font-size: 60px;
-    color: var (--accesntColor) !important;
+    color: var (--secondaryColor) !important;
     position: relative;
     top: 0px;
     text-decoration: none;

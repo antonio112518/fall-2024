@@ -283,21 +283,54 @@
 <div class="container">
 <form data-netlify="true" action="https//www.blinn.edu" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
   <div class="row">
+
     <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
-  <label for="first-name"> Full name </label>
-  <input type="text" name="FirstName" id="first-name" class="first-name form-control" required value="" placeholder="type name"/>
+     <label for="first-name"> Full name </label>
+     <input type="text" name="FirstName" id="first-name" class="first-name form-control" required/>
+    </div>
 
   <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
-    <label for="first-name"> Full name </label>
-    <input type="text" name="FirstName" id="first-name" class="first-name form-control" required value="" placeholder="type name"/>
+    <label for="last-name"> Last name </label>
+    <input type="text" name="lasttName" id="last-name" class="last-name form-control" required/>
   </div>
 
   <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
     <label for="first-name"> Full name </label>
     <input type="text" name="FirstName" id="first-name" class="first-name form-control" required value="" placeholder="type name"/>
+
+    <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
+      <label for="email"> Email </label>
+      <input type="email" name="email" id="email" class="email form-control" required value=""/>
+     </div>
+
+     <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
+      <label for="tel"> Phone </label>
+      <input type="tel" name="tel" id="tel" class="tel form-control" required value=""/>
+     </div
+
+     <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
+      <label> Dropdown Choices </label> <br>
+      <select name="DropDownChoices" id="dropdown-choices" required class="form-select"> 
+        <option value=""> PLease select one</option>
+        <option value="Choice One"> Choice 1</option>
+        <option value="Choice Two "> Choice 2</option>
+        <option value="Choice Three "> Choice 3</option>
+        <option value="CUSTOM">CUSTOM</option>
+      </select>
+      <input type="text" id="custom" class="form-control" disabled/>
+    </div>
+
+    <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
+      <label for="upload">upload file</label>
+      <input type="file" name="upload" accept=".jpg" class="form-control"/>
+    </div>
+
+    <div class="'col-12">
+<input type="checkbox" id="terms-and-conditions" name="terms" values="yes" required/>
+<label>I accept the terms</label>
+    </div>
+
   </div>
-</div>
-</div> 
 </form>
 </div>
 <!--Contact form end-->

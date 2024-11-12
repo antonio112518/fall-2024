@@ -309,14 +309,15 @@
 
      <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
       <label> Dropdown Choices </label> <br>
-       <select name="dropdownChoices" id="dropdown-choices" required class="form-select"> 
+      <select name="DropDownChoices" id="dropdown-choices" required class="form-select"> 
         <option value=""> PLease select one</option>
         <option value="Choice One"> Choice 1</option>
         <option value="Choice Two "> Choice 2</option>
         <option value="Choice Three "> Choice 3</option>
-        <option value="CUSTOM">CUSTOM</option>
-       </select>
-      <input type="text" id="custom" class="form-control" disabled/>
+        <option value="CUSTOM">OTHER</option>
+      </select>
+      
+      <input type="text" name="custom" id="custom" class="form-control" disabled/>
      </div>
 
     <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 co-xxl-4">
@@ -330,7 +331,7 @@
     </div>
 
     <div class="'col-12">
-      <input type="submit" name="submit"/>
+      <input type="submit" name="submit" id="submit" class="btn-primary"/>
     </div>
       
   

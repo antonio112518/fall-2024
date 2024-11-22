@@ -14,12 +14,12 @@ $( document ).ready(function() {
         display: false
 
     },
-    thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOff|labelApper75",
+    thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOff|labelAppear75",
     thumbnailGutterWidth: 20,
     thumbnailGutterHeight: 20,
     thumbnailAlignment: "center",
     thumbnailOpenImage: true
-    
+
 
 
 

@@ -8,7 +8,7 @@ $( document ).ready(function() {
     thumbnailHeight:  "auto",
     thumbnailWidth:   "450", 
     thumbnailBorderVertical: "0",
-    thumbnailBorderHorizontel: "0",
+    thumbnailBorderHorizontal: "0",
     thumbnailLabel: {
         position: "overImageOnBottom",
         display: false
